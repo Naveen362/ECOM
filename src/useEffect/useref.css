@@ -1,0 +1,14 @@
+.sliderimage{
+    display:block;
+    position:relative;
+    border:2px solid blue;
+}
+.sliderimage >button{
+    cursor:pointer;
+    background-color: rgb(79, 116, 96);
+    border-radius: 50%;
+}
+.sliderimage > button:hover{
+   transform: scale(1.2);
+   transition-duration: 1s;
+}

@@ -1,0 +1,19 @@
+.nav {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+   background-color: #3145728a;
+  color: #00f2ff;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: #f8fafc;
+}
+.nav a:hover {
+  color: #378ac194;
+}
+.ha{
+    color:rgb(63, 185, 132);
+}
