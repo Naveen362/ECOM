@@ -4,5 +4,9 @@
         flex-direction: column;
         justify-content:center;
     }
+    .h11{
+        color: rgb(52, 27, 215);
+        font-size: 25px;
+    }
     
 }
