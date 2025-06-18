@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import "./home1.css"
 const HomeComponents = ({product}) => {
     
     const { image, title, price, rating, id } = product;
   return (
-    <div className='card w-25 my-3' title={title}>
+    <div className='card  w-md-75 w-sm-100 w-lg-25 my-3 border-primary caa rounded-5' title={title}>
      <div className='card-header'>
         <img src={image} width="100%" height={200}/>
      </div>

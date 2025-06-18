@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-dark text-light py-4 mt-auto">
       <div className="container text-center">
-        <h2>Aadai🛍️ is the shop bame</h2>
+        <h2>Aadai🛍️</h2>
 
         <div className="row">
           <div className="col-md-4 mb-3">
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
          <h5 className='text-primary'>Contact-details📞 :+91 9603711147</h5>
         <hr className="bg-light" />
-        <p className="mb-0">&copy; {new Date().getFullYear()} Aadai🛍️ is the shop bame. All rights reserved.</p>
+        <p className="mb-0">&copy; {new Date().getFullYear()} Aadai🛍️. All rights reserved.</p>
       </div>
     </footer>
   );

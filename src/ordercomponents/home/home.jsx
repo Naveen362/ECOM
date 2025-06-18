@@ -1,5 +1,6 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import "./home.css"
 import HomeComponents from './HomeComponents'
 
 function Home() {
@@ -9,10 +10,10 @@ function Home() {
  })
  
     return (
-    <div className="container-fluid mt-4 rounded-3  shadow-lg ">
-    <h1 className='fst-italic text-center my-5'>Welcome to e-Commerce🛒 Website</h1>
+    <div className="container-fluid mt-4 rounded-3 shadow-lg ">
+    <h1 className='fst-italic text-center my-5'>Welcome to E-Commerce🛒 Website</h1>
         {data.length>0?
-        <div className='d-flex flex-wrap justify-content-evenly rounded-2 gap-3'>
+        <div className='d-flex naveen flex-wrap justify-content-evenly rounded-5 gap-3'>
       {data.map((data,index)=>{
         return(
           

@@ -22,3 +22,21 @@
 .ha{
     color:rgb(63, 185, 132);
 }
+@media screen and (max-width:900px){
+    .nav{
+      position:sticky;
+      top:0px;
+      z-index:1000;
+    }
+    .nav a{
+      display:none;
+      text-align: center;
+    }
+    .nav header{
+      font-size:80px;
+    }
+    .ha{
+      
+       font-size:60px;
+    }
+}
