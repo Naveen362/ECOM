@@ -10,7 +10,7 @@ function Home() {
  
     return (
     <div className="container-fluid mt-4 rounded-3  shadow-lg ">
-    <h1 className='fst-italic text-center my-5'>Welcome to e-Commerce🛍️ Website</h1>
+    <h1 className='fst-italic text-center my-5'>Welcome to e-Commerce🛒 Website</h1>
         {data.length>0?
         <div className='d-flex flex-wrap justify-content-evenly rounded-2 gap-3'>
       {data.map((data,index)=>{

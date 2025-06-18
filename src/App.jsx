@@ -16,6 +16,7 @@ import ProductDetails from './ordercomponents/productdetails';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Profiled, { One, Three, Two } from './ordercomponents/profiled';
 import Cart from './ordercomponents/addtocart/cart';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
         </Route> */}
         <Route path="CartEmis" element={<Cart/>}/>
       </Routes>
-      
+      <Footer/>
         {/* <Users/>
       <Users1/>
       <Userreduce/>

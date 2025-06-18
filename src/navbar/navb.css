@@ -3,7 +3,8 @@
     justify-content: space-evenly;
     align-items: center;
    
-   background-color: #3145728a;
+   
+    background-color: #4576dfe1;
   color: #00f2ff;
     
 }
@@ -12,7 +13,11 @@
     color: #f8fafc;
 }
 .nav a:hover {
-  color: #378ac194;
+  color: #080a0b;
+}
+.nav:hover{
+  background-color: #5a7ecbe1;
+  color: #00f2ff;
 }
 .ha{
     color:rgb(63, 185, 132);

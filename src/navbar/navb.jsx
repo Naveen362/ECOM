@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export default function Navbar(){
     return(
         <div className="nav">
-       <header><h1 className="ha">E-CART🛒</h1></header>
+       <header><h1 className="ha">Aadai🛍️</h1></header>
        <header className="d-flex justify-content-evenly w-50">
         {/* <a href="/">Home</a>
         <a href="/electronics">Electronics</a>
@@ -21,7 +21,7 @@ export default function Navbar(){
        <header className="d-flex justify-content-evenly w-25">
         {/* <Link to="/Profiled"><i className="bi bi-arrow-up-right-square-fill"></i></Link> */}
         <Link to="/CartEmis"><i className="bi bi-heart"></i></Link>
-        <a href="#"><i className="bi bi-arrow-down-right-square"></i></a>
+        <a href="#">🔐</a>
 
        </header>
         </div>
